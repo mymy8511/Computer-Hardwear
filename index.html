@@ -28,46 +28,82 @@
             <h2>CPU (Central Processing Unit)</h2>
             <img src="CPU.webp" alt="CPU" />
             <p>The CPU is the brain of the computer, responsible for executing instructions and processing data. Key terms include cores, threads, and clock speed.</p>
+            <select id="cpuDropdown" onchange="showComponentDetails('cpu')">
+                <option value="">--Select a CPU--</option>
+            </select>
+            <div id="cpuDetails"></div>
         </section>
         <section id="motherboard">
             <h2>Motherboard</h2>
             <img src="Picture-of-a-motherboard-768x384.jpg" alt="Motherboard" />
             <p>The motherboard is the main circuit board that connects all components, allowing communication between the CPU, RAM, and other hardware.</p>
+            <select id="motherboardDropdown" onchange="showComponentDetails('motherboard')">
+                <option value="">--Select a Motherboard--</option>
+            </select>
+            <div id="motherboardDetails"></div>
         </section>
         <section id="ram">
             <h2>Memory (RAM)</h2>
             <img src="Ram.jpg" alt="RAM" />
             <p>RAM is temporary storage for data being actively used by the CPU. Key terms include DDR, capacity (GB), and speed (MHz).</p>
+            <select id="ramDropdown" onchange="showComponentDetails('ram')">
+                <option value="">--Select RAM--</option>
+            </select>
+            <div id="ramDetails"></div>
         </section>
         <section id="storage">
             <h2>Storage</h2>
             <img src="SSD.webp" alt="Storage" />
             <p>Storage options include HDD (Hard Disk Drive) and SSD (Solid State Drive), used for permanent storage of the operating system, applications, and data.</p>
+            <select id="storageDropdown" onchange="showComponentDetails('storage')">
+                <option value="">--Select Storage--</option>
+            </select>
+            <div id="storageDetails"></div>
         </section>
         <section id="gpu">
             <h2>Graphics Processing Unit (GPU)</h2>
             <img src="GPU.webp" alt="GPU" />
             <p>The GPU handles rendering of images, video, and animations, crucial for gaming, video editing, and graphic design.</p>
+            <select id="gpuDropdown" onchange="showComponentDetails('gpu')">
+                <option value="">--Select a GPU--</option>
+            </select>
+            <div id="gpuDetails"></div>
         </section>
         <section id="psu">
             <h2>Power Supply Unit (PSU)</h2>
             <img src="PSU.avif" alt="PSU" />
             <p>The PSU converts electricity from an outlet into usable power for the computer components. Key terms include wattage and efficiency rating.</p>
+            <select id="psuDropdown" onchange="showComponentDetails('psu')">
+                <option value="">--Select a PSU--</option>
+            </select>
+            <div id="psuDetails"></div>
         </section>
         <section id="cooling">
             <h2>Cooling System</h2>
             <img src="Cooling.jpg" alt="Cooling System" />
             <p>Cooling systems include air cooling and liquid cooling, maintaining optimal temperature for the CPU, GPU, and other components.</p>
+            <select id="coolingDropdown" onchange="showComponentDetails('cooling')">
+                <option value="">--Select a Cooling System--</option>
+            </select>
+            <div id="coolingDetails"></div>
         </section>
         <section id="case">
             <h2>Case (Chassis)</h2>
             <img src="Case.jpg" alt="Case" />
             <p>The case houses and protects all the internal components, providing physical support and cooling.</p>
+            <select id="caseDropdown" onchange="showComponentDetails('case')">
+                <option value="">--Select a Case--</option>
+            </select>
+            <div id="caseDetails"></div>
         </section>
         <section id="network">
             <h2>Network Interface Card (NIC)</h2>
             <img src="NIC.jpg" alt="NIC" />
             <p>Network interfaces can be Ethernet (wired) or Wi-Fi (wireless), connecting the PC to a network for internet and local communications.</p>
+            <select id="networkDropdown" onchange="showComponentDetails('network')">
+                <option value="">--Select a Network Interface--</option>
+            </select>
+            <div id="networkDetails"></div>
         </section>
     </main>
     <footer>
